@@ -2,10 +2,10 @@ import java.util.Scanner;
 public class L {
     public static void main(String[]args){
         Scanner ler=new Scanner(System.in);
-        String frase, fraseSemEspacos;
+        String frase, fraseSemEspacosBrancos;
         frase= ler.nextLine();
-        fraseSemEspacos=frase.trim(); // retirar os espaços em branco no ínicio e no fim da frase
-        System.out.println(contarPalavras(fraseSemEspacos));
+        fraseSemEspacosBrancos=frase.trim(); // retirar os espaços em branco no ínicio e no fim da frase
+        System.out.println(contarPalavras(fraseSemEspacosBrancos));
     }
     public static int contarPalavras(String frase) {
         int contador = 0;

@@ -2,17 +2,17 @@ import java.util.Scanner;
 public class Y {
     static Scanner ler=new Scanner(System.in);
     public static void main(String[]args){
-        int numero1,minimo,numero2, maximo;
+        int numero1,menor,numero2, maior;
         numero1=ReadPositiveValue();
         numero2=ReadPositiveValue();
         if(numero1>numero2){
-            maximo=numero1;
-            minimo=numero2;
+            maior=numero1;
+            menor=numero2;
         }else{
-            maximo=numero2;
-            minimo=numero1;
+            maior=numero2;
+            menor=numero1;
         }
-        ShowTablesInRange(minimo,maximo);
+        ShowTablesInRange(menor,maior);
     }
     public static int ReadPositiveValue (){
         int num;

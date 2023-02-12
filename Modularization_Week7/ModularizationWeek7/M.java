@@ -3,21 +3,21 @@ import java.util.Scanner;
 public class M {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        int num;
+        int numero;
         double contadorNumeros = 0, contadorPositivos = 0, contadorNegativos = 0, contadorUniqueDigits = 0;
-        num = ler.nextInt();
-        while (num != 0) {
+        numero = ler.nextInt();
+        while (numero != 0) {
             contadorNumeros++;
-            if (UniqueDigits(num)==0) {
+            if (UniqueDigits(numero)==0) {
                 contadorUniqueDigits++;
-                System.out.println(num);
+                System.out.println(numero);
             }
-            if (num > 0) {
+            if (numero > 0) {
                 contadorPositivos++;
             } else {
                 contadorNegativos++;
             }
-            num = ler.nextInt();
+            numero = ler.nextInt();
         }
         if (contadorNumeros != 0) {
             System.out.printf("negatives: %.2f%%\n", calcularPercentagens(contadorNegativos, contadorNumeros));

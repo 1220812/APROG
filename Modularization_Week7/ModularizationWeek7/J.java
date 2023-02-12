@@ -2,9 +2,9 @@ import java.util.Scanner;
 public class J {
     public static void main(String[]args){
         Scanner ler=new Scanner(System.in);
-        int numero= ler.nextInt();
-        if(numero<=100){
-            System.out.println("triples="+CalcularTriplas(numero));
+        int num= ler.nextInt();
+        if(num<=100){
+            System.out.println("triples="+CalcularTriplas(num));
         }
     }
     public static int CalcularTriplas(int num){
