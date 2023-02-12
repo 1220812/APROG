@@ -2,9 +2,9 @@ import java.util.Scanner;
 public class K {
     public static void main(String[]args){
         Scanner ler=new Scanner(System.in);
-        int pontuacao, num, numeroInvertido;
-        num= ler.nextInt();
-        numeroInvertido=inverterNumero(num);
+        int pontuacao, numero, numeroInvertido;
+        numero= ler.nextInt();
+        numeroInvertido=inverterNumero(numero);
         pontuacao=pontuacao(numeroInvertido);
         System.out.println("points="+pontuacao);
     }
