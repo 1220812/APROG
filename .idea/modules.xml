@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/APROG.iml" filepath="$PROJECT_DIR$/APROG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Essential_Week4/Essential_Week4.iml" filepath="$PROJECT_DIR$/Essential_Week4/Essential_Week4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Essential_Week5/Essential_Week5.iml" filepath="$PROJECT_DIR$/Essential_Week5/Essential_Week5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modularization_Week6/Modularization_Week6.iml" filepath="$PROJECT_DIR$/Modularization_Week6/Modularization_Week6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modularization_Week7/Modularization_Week7.iml" filepath="$PROJECT_DIR$/Modularization_Week7/Modularization_Week7.iml" />
+    </modules>
+  </component>
+</project>
